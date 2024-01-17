@@ -1,6 +1,9 @@
 using UnityEditor.UIElements;
 using UnityEngine;
 
+/// <summary>
+/// Return true and add the item if there is an empty slot, else return false.
+/// </summary>
 public class OTSCamera : TargetCamera
 {
     [Header("Follow")]
